@@ -1,6 +1,7 @@
 class Post {
     int likes = 0;
 
+    // use synchronized to make a method thread proof
     public synchronized void like() {
         likes++;
     }
