@@ -4,7 +4,8 @@ class A {
     // className (e.g. A.num_of_objects)
     public static int num_of_objects = 0;
 
-    // final is const
+    // final is const i.e. its value can't be changed and declaration and
+    // initialization is done at same time
     static final String name = "Class A"; // one unChangeable copy is created [field name is readOnly]
 
     A() {
