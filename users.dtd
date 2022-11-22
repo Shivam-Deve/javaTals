@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT users (user+)>
+<!ELEMENT user (name,password)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+<!ATTLIST user uid ID #REQUIRED>
+<!ATTLIST user type (admin|normal) "normal">

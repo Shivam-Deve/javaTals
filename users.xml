@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<users>
+	<user uid="u1" type="admin">
+		<name>Priya</name>
+		<password>priya@123</password>
+	</user>
+	<user uid="u2" type="normal">
+		<name>Lobster</name>
+		<password>lobster@123</password>
+	</user>
+	<user uid="u3" type="admin">
+		<name>Sanjay</name>
+		<password>sanjay@123</password>
+	</user>
+
+</users>
